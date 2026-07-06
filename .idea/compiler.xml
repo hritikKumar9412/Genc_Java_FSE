@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Exercise7_ConstructorSetterInjection" />
+        <module name="Exercise2_DependencyInjection" />
+        <module name="Exercise3_SpringAOPLogging" />
+        <module name="Exercise4_MavenConfiguration" />
+        <module name="Exercise8_BasicSpringAOP" />
+        <module name="LibraryManagementProject" />
+        <module name="Exercise6_AnnotationConfiguration" />
+        <module name="Exercise5_SpringIoCContainerr" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Exercise5_SpringIoCContainer" target="17" />
+      <module name="Exercise7_ConstructorSetterInjection" target="17" />
+      <module name="LibraryManagement" target="21" />
+      <module name="LibraryManagement1" target="25" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="LibraryManagement" options="-parameters" />
+    </option>
+  </component>
+</project>

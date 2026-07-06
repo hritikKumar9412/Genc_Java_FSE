@@ -3,7 +3,9 @@ package FactoryMethodPatternExample;
 public class WordFactory extends DocumentFactory {
 
     @Override
-    public Document createDocument() {
+    public Document createDocument()
+    {
         return new WordDocument();
+
     }
 }
