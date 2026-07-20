@@ -1,0 +1,58 @@
+body{
+
+    background:#f4f4f4;
+    font-family:Arial;
+
+}
+
+.container{
+
+    width:400px;
+    margin:40px auto;
+    padding:20px;
+
+    border:1px solid #ccc;
+    border-radius:10px;
+
+    background:white;
+
+}
+
+label{
+
+    display:block;
+    margin-top:15px;
+    font-weight:bold;
+
+}
+
+input{
+
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+
+}
+
+button{
+
+    margin-top:20px;
+    width:100%;
+
+    padding:10px;
+
+    background:green;
+    color:white;
+
+    border:none;
+
+    cursor:pointer;
+
+}
+
+.error{
+
+    color:red;
+    font-size:14px;
+
+}
