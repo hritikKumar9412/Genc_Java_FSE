@@ -16,6 +16,10 @@
         <option value="$PROJECT_DIR$/Week2/Spring Data JPA and Hibernate/EmployeeManagementSystem/pom.xml" />
         <option value="$PROJECT_DIR$/Week3/Spring REST using Spring Boot/spring-learn/pom.xml" />
         <option value="$PROJECT_DIR$/Week3/Spring REST using Spring Boot/spring-rest-practice/pom.xml" />
+        <option value="$PROJECT_DIR$/Week4/account/pom.xml" />
+        <option value="$PROJECT_DIR$/Week4/Loan/pom.xml" />
+        <option value="$PROJECT_DIR$/Week4/eureka-discovery-server/pom.xml" />
+        <option value="$PROJECT_DIR$/Week4/api-gateway/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -25,7 +29,7 @@
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_25" project-jdk-name="openjdk-25" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" project-jdk-name="azul-21 (2)" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
