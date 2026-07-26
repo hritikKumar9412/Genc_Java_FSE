@@ -1,23 +1,25 @@
 # 🚀 Cognizant Digital Nurture – Java Full Stack Engineer (Java FSE)
 
-This repository contains my weekly assignments, hands-on exercises, practice programs, and mini projects completed as part of the **Cognizant Digital Nurture – Java Full Stack Engineer (Java FSE)** training program.
+Welcome to my **Cognizant Digital Nurture – Java Full Stack Engineer (Java FSE)** repository.
 
-The program focuses on building strong foundations in **Java, Spring Boot, Databases, REST APIs, React, Software Engineering Principles, and Full Stack Development**.
+This repository contains my weekly assignments, hands-on exercises, coding challenges, mini projects, and practice programs completed during the **Cognizant Digital Nurture Training Program**.
+
+The training focuses on building strong fundamentals in **Java, Spring Boot, Microservices, Databases, REST APIs, ReactJS, Git, and Full Stack Development**.
 
 ---
 
-## 📚 Completed Modules
+# 📚 Course Modules
 
-### 📅 Week 1 – Engineering Concepts
+## 📅 Week 1 – Engineering Concepts
 
-#### 🎯 Design Patterns & Principles
+### 🎯 Design Patterns & Principles
 - Singleton Pattern
 - Factory Method Pattern
 - Builder Pattern
 - Dependency Injection
 - MVC Pattern
 
-#### 📊 Data Structures & Algorithms
+### 📊 Data Structures & Algorithms
 - Employee Management System
 - Inventory Management System
 - Financial Forecasting
@@ -26,47 +28,57 @@ The program focuses on building strong foundations in **Java, Spring Boot, Datab
 - Task Management System
 - E-Commerce System
 
-#### 🗄️ PL/SQL Programming
+### 🗄️ PL/SQL Programming
 - SQL Hands-on Exercises
 - PL/SQL Programs
 - Database Practice
+
+### 🧪 Testing
+- JUnit
+- Mockito
+- Logging Framework (SLF4J / Logback)
 
 📂 **Folder:** `Week1`
 
 ---
 
-## 📅 Week 2 – Java Programming
+# 📅 Week 2 – Spring Core & Hibernate
 
-### ☕ Core Java
-- Java Fundamentals
-- OOP Concepts
-- Arrays & Strings
-- Exception Handling
-- Collections Framework
-- File Handling
-- Multithreading
-- Java 8 Features (Lambda & Streams)
+### 🌱 Spring Framework
+- Spring Core
+- Dependency Injection (DI)
+- Inversion of Control (IoC)
+- Spring AOP
+- Annotation Configuration
 
-### 💻 Hands-on Exercises
-- Practice Programs
-- Coding Assignments
-- Problem Solving
+### 🏗️ Maven
+- Maven Project Setup
+- Dependency Management
+- Build Lifecycle
+
+### 🗄️ Spring Data JPA & Hibernate
+- Entity Mapping
+- Relationships
+- Repository Layer
+- CRUD Operations
+- Hibernate ORM
+
+### 💻 Hands-on Projects
+- Employee Management System
+- Library Management
 
 📂 **Folder:** `Week2`
 
 ---
 
-## 📅 Week 3 – Spring Boot Development
+# 📅 Week 3 – Spring Boot REST APIs
 
-### 🌱 Spring Framework
-- Spring Core
-- Maven
-- Spring Boot
-- Spring Data JPA
-- Hibernate ORM
+### 🌐 Spring Boot
+- Spring Boot Fundamentals
+- Auto Configuration
+- REST API Development
 
-### 🌐 REST API Development
-- RESTful Web Services
+### 🔗 RESTful Web Services
 - CRUD Operations
 - Request Mapping
 - Path Variables
@@ -79,11 +91,40 @@ The program focuses on building strong foundations in **Java, Spring Boot, Datab
 - JPA Repositories
 - Entity Mapping
 
+### 🔐 Spring Security
+- JWT Authentication
+- Authorization
+- Secure REST APIs
+
+### 💻 Practice Projects
+- Spring Learn
+- Spring REST Practice
+- Spring Security JWT Practice
+
 📂 **Folder:** `Week3`
 
 ---
 
-## 📅 Week 5 – ReactJS
+# 📅 Week 4 – Microservices
+
+### ☁️ Spring Cloud
+- Microservices Architecture
+- Eureka Discovery Server
+- API Gateway
+- Service Discovery
+- Feign Client
+
+### 💻 Microservice Projects
+- Account Service
+- Loan Service
+- Eureka Discovery Server
+- API Gateway
+
+📂 **Folder:** `Week4`
+
+---
+
+# 📅 Week 5 – ReactJS
 
 ### ⚛️ React Fundamentals
 - JSX
@@ -94,6 +135,8 @@ The program focuses on building strong foundations in **Java, Spring Boot, Datab
 - Forms
 - Conditional Rendering
 - Lists & Keys
+- React Hooks
+- Routing
 
 ### 📂 React Hands-on Applications
 - Academy Dashboard
@@ -114,56 +157,146 @@ The program focuses on building strong foundations in **Java, Spring Boot, Datab
 
 ---
 
-## 🛠️ Technologies Used
+# 📅 Week 6 – Git & Advanced React
 
-- Java
-- Spring Boot
-- Spring Data JPA
-- Hibernate
-- Maven
-- MySQL
-- SQL / PL-SQL
-- REST APIs
-- ReactJS
-- HTML
-- CSS
-- JavaScript
-- Git & GitHub
+### 🔀 Git Version Control
+- Git Installation & Configuration
+- Git Commands
+- Git Ignore
+- Branching
+- Merging
+- Merge Conflict Resolution
+- Git Push & Pull
+- GitHub Integration
+
+### ⚛️ React Hands-on
+- Git Client App
+- Trainers App
+
+📂 **Folder:** `Week6`
 
 ---
 
-## 📂 Repository Structure
+# 🛠️ Technologies Used
+
+## Programming Languages
+- Java
+- JavaScript
+- SQL
+- PL/SQL
+
+## Backend
+- Spring Boot
+- Spring Core
+- Spring Data JPA
+- Hibernate
+- Spring Security
+- Spring Cloud
+
+## Frontend
+- ReactJS
+- HTML5
+- CSS3
+
+## Database
+- MySQL
+
+## Build Tools
+- Maven
+
+## Version Control
+- Git
+- GitHub
+
+## Testing
+- JUnit
+- Mockito
+
+## IDEs
+- IntelliJ IDEA
+- Visual Studio Code
+
+---
+
+# 📂 Repository Structure
 
 ```
+Genc_Java_FSE
+│
 ├── Week1
+│   ├── Design Patterns
+│   ├── DSA
+│   ├── SQL
+│   └── Testing
+│
 ├── Week2
+│   ├── Spring Core
+│   ├── Spring Data JPA
+│   └── Hibernate
+│
 ├── Week3
+│   ├── Spring Boot
+│   ├── REST APIs
+│   └── Spring Security
+│
+├── Week4
+│   ├── Account Service
+│   ├── Loan Service
+│   ├── Eureka Server
+│   └── API Gateway
+│
 ├── Week5
+│   ├── React Projects
+│   └── Assignments
+│
+├── Week6
+│   ├── Git
+│   └── React
+│
 └── README.md
 ```
 
 ---
 
-## 🎯 Learning Outcomes
+# 🎯 Learning Outcomes
 
-- Object-Oriented Programming
+After completing this training, I gained hands-on experience in:
+
+- Object-Oriented Programming (OOP)
 - Design Patterns
 - Data Structures & Algorithms
-- Database Programming
-- Spring Boot Development
+- SQL & PL/SQL
+- Spring Framework
+- Spring Boot
+- Spring Data JPA
+- Hibernate ORM
 - REST API Development
-- Hibernate & JPA
-- ReactJS Frontend Development
-- Version Control with Git & GitHub
+- Microservices Architecture
+- Spring Cloud
+- ReactJS
+- Git & GitHub
+- Maven
+- Unit Testing with JUnit & Mockito
+- Software Engineering Best Practices
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Hritik Kumar**
 
-- GitHub: https://github.com/hritikKumar9412
+🎓 B.Tech – Computer Science Engineering
+
+🔗 **GitHub:** https://github.com/hritikKumar9412
 
 ---
 
-## ⭐ If you found this repository helpful, don't forget to Star it!
+## ⭐ Support
+
+If you found this repository helpful, please consider giving it a **⭐ Star** on GitHub.
+
+It motivates me to continue learning and sharing more projects.
+
+---
+
+**Thank you for visiting! 😊**
