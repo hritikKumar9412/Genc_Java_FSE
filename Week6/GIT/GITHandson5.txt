@@ -1,0 +1,56 @@
+====================================================
+      GIT CLEANUP & PUSH TO REMOTE COMMANDS
+====================================================
+
+1. git status
+   Working: Checks whether the master branch is in a clean state before pushing changes.
+
+2. git branch
+   Working: Lists all available local branches and shows the current active branch.
+
+3. git checkout master
+   Working: Switches to the master branch.
+   (Use 'main' if your default branch is main.)
+
+4. git pull origin master
+   Working: Downloads and merges the latest changes from the remote master branch.
+   (Use 'main' if your remote branch is main.)
+
+5. git status
+   Working: Verifies that the local repository is up to date and checks for any pending changes.
+
+6. git push origin master
+   Working: Uploads all committed local changes to the remote master branch.
+   (Use 'main' if your remote branch is main.)
+
+7. git log --oneline
+   Working: Displays the recent commit history to verify that the latest commits are available locally.
+
+8. git remote -v
+   Working: Displays the configured remote repository URLs.
+
+====================================================
+             COMPLETE WORKFLOW
+====================================================
+
+git status
+git branch
+git checkout master
+git pull origin master
+git status
+git push origin master
+git log --oneline
+git remote -v
+
+(If your default branch is 'main', replace 'master' with 'main' in the above commands.)
+
+====================================================
+               EXPECTED RESULT
+====================================================
+
+✔ Master branch is in a clean state.
+✔ All available branches are displayed.
+✔ Latest changes are pulled from the remote repository.
+✔ Local commits are successfully pushed to the remote repository.
+✔ Changes are visible in the remote GitHub/GitLab repository.
+✔ Local and remote repositories are synchronized.

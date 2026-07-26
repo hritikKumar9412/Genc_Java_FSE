@@ -1,0 +1,69 @@
+1. git --version
+   Working: Displays the installed Git version.
+
+2. git config --global user.name "Name"
+   Working: Sets the Git username globally.
+
+3. git config --global user.email "email@example.com"
+   Working: Sets the Git email address globally.
+
+4. git config --global --list
+   Working: Displays all global Git configuration settings.
+
+5. git init
+   Working: Initializes a new Git repository in the current directory.
+
+6. git status
+   Working: Shows the current status of the repository, including tracked,
+            untracked, modified, and staged files.
+
+7. git add <file>
+   Working: Adds a specific file to the staging area.
+
+8. git add .
+   Working: Adds all new and modified files to the staging area.
+
+9. git commit -m "message"
+   Working: Saves the staged changes with a commit message.
+
+10. git commit
+    Working: Opens the default editor to write a multi-line commit message.
+
+11. git log
+    Working: Displays the commit history of the repository.
+
+12. git remote add origin <repository-url>
+    Working: Connects the local repository to a remote repository.
+
+13. git remote -v
+    Working: Displays the configured remote repository URLs.
+
+14. git pull origin main
+    Working: Downloads and merges the latest changes from the remote repository.
+
+15. git push origin main
+    Working: Uploads local commits to the remote repository.
+
+16. ls
+    Working: Lists all files and folders in the current directory.
+
+17. ls -la
+    Working: Lists all files, including hidden files such as the .git folder.
+
+18. touch welcome.txt
+    Working: Creates a new empty file named welcome.txt.
+
+19. cat welcome.txt
+    Working: Displays the contents of the welcome.txt file.
+
+20. mkdir GitDemo
+    Working: Creates a new directory named GitDemo.
+
+21. cd GitDemo
+    Working: Changes the current working directory to GitDemo.
+
+22. notepad++
+    Working: Opens Notepad++ from Git Bash.
+
+23. source ~/.bashrc
+    Working: Reloads the Bash configuration file after making changes.

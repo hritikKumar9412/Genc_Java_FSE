@@ -1,0 +1,89 @@
+====================================================
+      GIT BRANCHING & MERGING COMMANDS AND WORKING
+====================================================
+
+1. git branch GitNewBranch
+   Working: Creates a new branch named GitNewBranch.
+
+2. git branch
+   Working: Lists all local branches. The (*) symbol indicates the current branch.
+
+3. git branch -a
+   Working: Lists all local and remote branches.
+
+4. git checkout GitNewBranch
+   Working: Switches from the current branch to GitNewBranch.
+
+5. touch sample.txt
+   Working: Creates a new file in the current branch.
+
+6. notepad++ sample.txt
+   Working: Opens the file in Notepad++ to add or edit content.
+
+7. git add .
+   Working: Adds all new and modified files to the staging area.
+
+8. git commit -m "Added files in GitNewBranch"
+   Working: Commits the staged changes to the current branch.
+
+9. git status
+   Working: Displays the current status of the branch and working directory.
+
+====================================================
+                    MERGING
+====================================================
+
+10. git checkout master
+    Working: Switches from the current branch to the master branch.
+    (Use 'main' if your default branch is main.)
+
+11. git diff master GitNewBranch
+    Working: Displays the differences between the master branch and GitNewBranch in the command line.
+
+12. git difftool master GitNewBranch
+    Working: Opens P4Merge to display visual differences between the two branches.
+
+13. git merge GitNewBranch
+    Working: Merges the changes from GitNewBranch into the master branch.
+
+14. git log --oneline --graph --decorate
+    Working: Displays the commit history in a graphical format with branch information.
+
+15. git branch -d GitNewBranch
+    Working: Deletes the GitNewBranch after it has been successfully merged.
+
+16. git status
+    Working: Verifies that the working directory is clean after merging.
+
+====================================================
+                COMPLETE WORKFLOW
+====================================================
+
+git branch GitNewBranch
+git branch -a
+git checkout GitNewBranch
+touch sample.txt
+notepad++ sample.txt
+git add .
+git commit -m "Added files in GitNewBranch"
+git status
+
+git checkout master
+git diff master GitNewBranch
+git difftool master GitNewBranch
+git merge GitNewBranch
+git log --oneline --graph --decorate
+git branch -d GitNewBranch
+git status
+
+====================================================
+                EXPECTED RESULT
+====================================================
+
+✔ A new branch "GitNewBranch" is created.
+✔ Changes are committed in the new branch.
+✔ Differences between branches can be viewed using git diff and P4Merge.
+✔ The branch is successfully merged into master.
+✔ Commit history shows the merge.
+✔ GitNewBranch is deleted after merging.
+✔ Working directory is clean (git status).

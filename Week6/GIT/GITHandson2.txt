@@ -1,0 +1,50 @@
+
+1. touch .gitignore
+   Working: Creates a new .gitignore file in the current Git repository.
+
+2. notepad++ .gitignore
+   Working: Opens the .gitignore file in Notepad++ for editing.
+
+3. *.log
+   Working: Ignores all files with the .log extension.
+
+4. logs/
+   Working: Ignores the entire logs folder and all files inside it.
+
+5. touch error.log
+   Working: Creates a new log file named error.log.
+
+6. mkdir logs
+   Working: Creates a new folder named logs.
+
+7. touch logs/app.log
+   Working: Creates a log file named app.log inside the logs folder.
+
+8. git status
+   Working: Displays the current status of the repository and verifies that ignored files and folders are not shown.
+
+9. git add .
+   Working: Adds all tracked and non-ignored files to the staging area. Files listed in .gitignore are skipped.
+
+10. git commit -m "Added .gitignore file"
+    Working: Saves the staged changes, including the .gitignore file, to the local repository.
+
+11. git push origin main
+    Working: Uploads the committed changes to the remote repository.
+
+====================================================
+            SAMPLE .gitignore FILE
+====================================================
+
+*.log
+logs/
+
+====================================================
+                EXPECTED RESULT
+====================================================
+
+✔ All .log files are ignored.
+✔ The logs folder is ignored.
+✔ .gitignore file is tracked by Git.
+✔ Ignored files do not appear in 'git status'.
+✔ Ignored files are not added by 'git add .'.

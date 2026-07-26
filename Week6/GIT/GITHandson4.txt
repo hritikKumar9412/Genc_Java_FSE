@@ -1,0 +1,153 @@
+====================================================
+      GIT MERGE CONFLICT RESOLUTION COMMANDS
+====================================================
+
+1. git status
+   Working: Checks whether the master branch is in a clean state before starting.
+
+2. git checkout -b GitWork
+   Working: Creates a new branch named GitWork and switches to it.
+
+3. touch hello.xml
+   Working: Creates a new file named hello.xml.
+
+4. notepad++ hello.xml
+   Working: Opens hello.xml in Notepad++ to add or modify its content.
+
+5. git status
+   Working: Displays the current status after modifying hello.xml.
+
+6. git add hello.xml
+   Working: Adds hello.xml to the staging area.
+
+7. git commit -m "Added hello.xml in GitWork branch"
+   Working: Commits the changes to the GitWork branch.
+
+====================================================
+              CHANGES IN MASTER
+====================================================
+
+8. git checkout master
+   Working: Switches to the master branch.
+   (Use 'main' if your default branch is main.)
+
+9. touch hello.xml
+   Working: Creates hello.xml in the master branch.
+
+10. notepad++ hello.xml
+    Working: Opens hello.xml and adds different content to create a conflict.
+
+11. git add hello.xml
+    Working: Adds the modified hello.xml to the staging area.
+
+12. git commit -m "Added hello.xml in master"
+    Working: Commits the changes to the master branch.
+
+====================================================
+           VIEW DIFFERENCES
+====================================================
+
+13. git log --oneline --graph --decorate --all
+    Working: Displays the complete commit history of all branches in graphical format.
+
+14. git diff master GitWork
+    Working: Shows the differences between the master branch and GitWork branch.
+
+15. git difftool master GitWork
+    Working: Opens P4Merge to visually compare the differences between the two branches.
+
+====================================================
+          MERGE & RESOLVE CONFLICT
+====================================================
+
+16. git merge GitWork
+    Working: Merges GitWork into master. If the same file has different changes, Git reports a merge conflict.
+
+17. git status
+    Working: Shows the files that have merge conflicts.
+
+18. git mergetool
+    Working: Opens the configured 3-way merge tool (P4Merge) to resolve the conflict.
+
+19. git add hello.xml
+    Working: Marks the conflict as resolved by staging the corrected file.
+
+20. git commit -m "Resolved merge conflict"
+    Working: Commits the merged changes after resolving the conflict.
+
+====================================================
+           UPDATE .gitignore
+====================================================
+
+21. notepad++ .gitignore
+    Working: Opens the .gitignore file.
+
+22. Add the following line:
+    *.bak
+    Working: Ignores all backup (.bak) files created during merge resolution.
+
+23. git add .gitignore
+    Working: Stages the updated .gitignore file.
+
+24. git commit -m "Updated .gitignore"
+    Working: Saves the .gitignore changes to the repository.
+
+====================================================
+           CLEANUP & VERIFY
+====================================================
+
+25. git branch
+    Working: Lists all available local branches.
+
+26. git branch -d GitWork
+    Working: Deletes the GitWork branch after it has been successfully merged.
+
+27. git log --oneline --graph --decorate
+    Working: Displays the final commit history after the merge.
+
+====================================================
+             COMPLETE WORKFLOW
+====================================================
+
+git status
+git checkout -b GitWork
+touch hello.xml
+notepad++ hello.xml
+git add hello.xml
+git commit -m "Added hello.xml in GitWork branch"
+
+git checkout master
+touch hello.xml
+notepad++ hello.xml
+git add hello.xml
+git commit -m "Added hello.xml in master"
+
+git log --oneline --graph --decorate --all
+git diff master GitWork
+git difftool master GitWork
+git merge GitWork
+git status
+git mergetool
+git add hello.xml
+git commit -m "Resolved merge conflict"
+
+notepad++ .gitignore
+git add .gitignore
+git commit -m "Updated .gitignore"
+
+git branch
+git branch -d GitWork
+git log --oneline --graph --decorate
+
+====================================================
+               EXPECTED RESULT
+====================================================
+
+✔ Master branch is initially clean.
+✔ GitWork branch is created successfully.
+✔ Different changes in hello.xml create a merge conflict.
+✔ Conflict is resolved using the 3-way merge tool (P4Merge).
+✔ The resolved file is committed successfully.
+✔ Backup (.bak) files are ignored using .gitignore.
+✔ GitWork branch is deleted after merging.
+✔ Final commit history shows the successful merge.
